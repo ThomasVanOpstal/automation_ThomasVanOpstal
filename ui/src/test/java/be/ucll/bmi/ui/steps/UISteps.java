@@ -14,7 +14,7 @@ import java.util.Objects;
 abstract class UISteps {
 
     @Autowired
-
+    UITestContext context;
 
     @Autowired
     PatientRepository patientRepository;
